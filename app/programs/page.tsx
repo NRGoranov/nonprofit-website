@@ -60,7 +60,7 @@ export default function ProgramsPage() {
                   <div className="bg-amber-50 p-4 rounded-lg mb-6">
                     <h4 className="font-semibold text-amber-800 mb-3">How You Can Help:</h4>
                     <ul className="space-y-2">
-                      {program.needs.map((need, index) => (
+                      {program.needs.map((need: string, index: number) => (
                         <li key={index} className="flex items-center gap-2 text-sm text-amber-700">
                           <span className="w-2 h-2 bg-amber-500 rounded-full"></span>
                           {need}
