@@ -1,0 +1,55 @@
+import { Event } from '@/types';
+
+export const eventsData: Event[] = [
+  {
+    id: '1',
+    title: 'Annual Charity Gala',
+    date: new Date('2025-11-15'),
+    time: '6:00 PM - 10:00 PM',
+    location: 'Grand Ballroom, City Center',
+    description: 'Join us for an evening of inspiration, entertainment, and fundraising to support our programs. Features dinner, live auction, and special guest speakers.',
+    imageUrl: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&h=400&fit=crop',
+    registrationUrl: '#',
+  },
+  {
+    id: '2',
+    title: 'Community Cleanup Day',
+    date: new Date('2025-10-20'),
+    time: '9:00 AM - 2:00 PM',
+    location: 'Central Park',
+    description: 'Volunteer with us to clean up our local parks and neighborhoods. Supplies provided, bring your energy and enthusiasm!',
+    imageUrl: 'https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?w=600&h=400&fit=crop',
+    registrationUrl: '#',
+  },
+  {
+    id: '3',
+    title: 'Health & Wellness Fair',
+    date: new Date('2025-10-28'),
+    time: '10:00 AM - 4:00 PM',
+    location: 'Community Center',
+    description: 'Free health screenings, wellness workshops, and fitness demonstrations for the whole family.',
+    imageUrl: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&h=400&fit=crop',
+    registrationUrl: '#',
+  },
+  {
+    id: '4',
+    title: 'Youth Leadership Workshop',
+    date: new Date('2025-11-05'),
+    time: '1:00 PM - 5:00 PM',
+    location: 'Youth Center, 123 Main St',
+    description: 'Empowering young leaders through interactive workshops on communication, teamwork, and community engagement.',
+    imageUrl: 'https://images.unsplash.com/photo-1529390079861-591de354faf5?w=600&h=400&fit=crop',
+    registrationUrl: '#',
+  },
+  {
+    id: '5',
+    title: 'Virtual Fundraising Concert',
+    date: new Date('2025-12-10'),
+    time: '7:00 PM - 9:00 PM',
+    location: 'Online Event',
+    description: 'Enjoy performances from local artists while supporting our mission. Stream from the comfort of your home!',
+    imageUrl: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&h=400&fit=crop',
+    registrationUrl: '#',
+  },
+];
+
