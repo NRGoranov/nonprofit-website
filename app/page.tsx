@@ -4,6 +4,7 @@ import OptimizedImage from '@/components/common/OptimizedImage'
 import Hero from '@/components/home/Hero'
 import FeaturedPrograms from '@/components/home/FeaturedPrograms'
 
+// Home page component
 export default function Home() {
   return (
     <main>
