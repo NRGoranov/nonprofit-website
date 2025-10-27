@@ -36,8 +36,8 @@ export default function Button({
     lg: 'px-8 py-4 text-lg',
   };
 
-  // When className is provided, use it for styling; otherwise use variant
-  const variantStyles = className ? '' : variants[variant];
+  // When className is provided, it overrides the variant but we still apply base variant if not overridden
+  const variantStyles = className && className.includes('bg-') ? '' : variants[variant];
   const classes = `${baseStyles} ${sizes[size]} ${variantStyles} ${className}`;
 
   if (href) {
